@@ -1,0 +1,26 @@
+{
+    "name": "gunaraj/todolist",
+    "description": "This todolist package will allow to create,read,update and delete lists.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gunaraj",
+            "email": "khatriroshan54@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gunaraj\\Todolist\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Gunaraj\\Todolist\\TodolistServiceProvider"
+            ]
+        }
+    }
+}
